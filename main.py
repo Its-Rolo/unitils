@@ -19,7 +19,7 @@ def parse_time(time_str):
 
 def load_config():
     config = configparser.ConfigParser()
-    config.read('config.conf')
+    config.read('unitils.conf')
     for section in config.sections():
         class_name = config[section]['name']
         classes.append(class_name)
@@ -95,9 +95,6 @@ def main():
         print("Times:", times)
         display_all_classes()
 
-def print_ascii_art(file_path):
-    with open(file_path, 'r') as file:
-        print(file.read())
 
 if __name__ == "__main__":
     main()
