@@ -21,6 +21,18 @@ sudo chmod a+rx /usr/local/bin/unitils
 sudo chmod a+r /usr/local/bin/unitils.conf
 ```
 
+## Uninstallation
+
+Step 1, cd into the directory:
+```
+cd /usr/local/bin
+```
+Step 2, remove the two files:
+```
+sudo rm unitils
+sudo rm unitils.conf
+```
+
 If you are not using Linux, you will have to modify main.py to correct the file path for unitils.conf
 After that, you can run it normally with python main.py
 
