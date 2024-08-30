@@ -21,7 +21,8 @@ sudo chmod a+rx /usr/local/bin/unitils
 sudo chmod a+r /usr/local/bin/unitils.conf
 ```
 
-Otherwise you can clone the repo and run main.py like any other python script
+If you are not using Linux, you will have to modify main.py to correct the file path for unitils.conf
+After that, you can run it normally with python main.py
 
 ## Usage
 
