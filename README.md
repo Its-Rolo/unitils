@@ -15,10 +15,15 @@ Step 1, curl main.py & unitils.conf:
 sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main/main.py -o /usr/local/bin/unitils
 sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main/unitils.conf -o /usr/local/bin/unitils.conf
 ```
-Step 2, edit/verify file read & write permissions:
+Step 2, modify/verify file read & write permissions:
 ```
 sudo chmod a+rx /usr/local/bin/unitils
 sudo chmod a+rw /usr/local/bin/unitils.conf
+```
+Step 3, edit unitils.conf with any text editor to include your classes & settings (for example):
+```
+cd /usr/local/bin
+vim unitils.conf
 ```
 
 If you are not using Linux, you will have to modify main.py to correct the file path for unitils.conf  
