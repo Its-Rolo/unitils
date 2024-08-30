@@ -58,10 +58,56 @@ def display_all_classes():
 
 def main():
     parser = argparse.ArgumentParser(description="University Utils")
-    parser.add_argument('--nextclass', action='store_true', help="Show the next class")
+    parser.add_argument('--nextclass', action='store_true', help="Displays the next upcoming class")
+    parser.add_argument('--monday', action='store_true', help="Displays the schedule for Monday")
+    parser.add_argument('--tuesday', action='store_true', help="Displays the schedule for Tuesday")
+    parser.add_argument('--wednesday', action='store_true', help="Displays the schedule for Wednesday")
+    parser.add_argument('--thursday', action='store_true', help="Displays the schedule for Thursday")
+    parser.add_argument('--friday', action='store_true', help="Displays the schedule for Friday")
     args = parser.parse_args()
 
     load_config()
+
+    if args.monday:
+        print("Monday Schedule:")
+        sorted_classes = sorted(times["monday"], key=lambda cls: cls[1])
+        for cls in sorted_classes:
+            start_time_str = cls[1].strftime("%-I:%M %p")
+            end_time_str = cls[2].strftime("%-I:%M %p")
+            print(f"  {cls[0]}: {start_time_str} - {end_time_str}")
+        return  # Exit after displaying Monday schedule
+    if args.tuesday:
+        print("Tuesday Schedule:")
+        sorted_classes = sorted(times["tuesday"], key=lambda cls: cls[1])
+        for cls in sorted_classes:
+            start_time_str = cls[1].strftime("%-I:%M %p")
+            end_time_str = cls[2].strftime("%-I:%M %p")
+            print(f"  {cls[0]}: {start_time_str} - {end_time_str}")
+        return  # Exit after displaying Monday schedule
+    if args.wednesday:
+        print("Wednesday Schedule:")
+        sorted_classes = sorted(times["wednesday"], key=lambda cls: cls[1])
+        for cls in sorted_classes:
+            start_time_str = cls[1].strftime("%-I:%M %p")
+            end_time_str = cls[2].strftime("%-I:%M %p")
+            print(f"  {cls[0]}: {start_time_str} - {end_time_str}")
+        return  # Exit after displaying Monday schedule
+    if args.thursday:
+        print("Thursday Schedule:")
+        sorted_classes = sorted(times["thursday"], key=lambda cls: cls[1])
+        for cls in sorted_classes:
+            start_time_str = cls[1].strftime("%-I:%M %p")
+            end_time_str = cls[2].strftime("%-I:%M %p")
+            print(f"  {cls[0]}: {start_time_str} - {end_time_str}")
+        return  # Exit after displaying Monday schedule
+    if args.friday:
+        print("Friday Schedule:")
+        sorted_classes = sorted(times["friday"], key=lambda cls: cls[1])
+        for cls in sorted_classes:
+            start_time_str = cls[1].strftime("%-I:%M %p")
+            end_time_str = cls[2].strftime("%-I:%M %p")
+            print(f"  {cls[0]}: {start_time_str} - {end_time_str}")
+        return  # Exit after displaying Monday schedule
 
     if args.nextclass:
         current_time = datetime.now().strftime("%H:%M")
