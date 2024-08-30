@@ -10,13 +10,15 @@ Setup for unitils should be completed via the config.conf file, as well as any o
 
 Linux users can install unitils via curl:
 
-Step 1:
+Step 1, curl main.py & unitils.conf:
 ```
 sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main/main.py -o /usr/local/bin/unitils
+sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main/unitils.conf -o /usr/local/bin/unitils.conf
 ```
 Step 2:
 ```
 sudo chmod a+rx /usr/local/bin/unitils
+sudo chmod a+r /usr/local/bin/unitils.conf
 ```
 
 Otherwise you can clone the repo and run main.py like any other python script
