@@ -2,9 +2,9 @@
 
 ## Description
 
-unitils is a simple/minimal program that allows you as a student to easily view your class schedule.
-It is designed to run solely in the terminal and utilizes arguments to refine what you want it to display.
-Setup for unitils should be completed via the config.conf file, as well as any other customizations you may want.
+unitils is a simple/minimal program that allows you as a student to easily view your class schedule.  
+It is designed to run solely in the terminal and utilizes arguments to refine what you want it to display.  
+Setup for unitils should be completed via the config.conf file, as well as any other customizations you may want.  
 
 ## Installation
 
@@ -33,7 +33,7 @@ sudo rm unitils
 sudo rm unitils.conf
 ```
 
-If you are not using Linux, you will have to modify main.py to correct the file path for unitils.conf
+If you are not using Linux, you will have to modify main.py to correct the file path for unitils.conf  
 After that, you can run it normally with python main.py
 
 ## Usage
