@@ -8,7 +8,16 @@ Setup for unitils should be completed via the config.conf file, as well as any o
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Linux users can install unitils via curl:
+
+Step 1:
+```
+sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main.py -o /usr/local/bin/unitils
+```
+Step 2:
+```
+sudo chmod a+rx /usr/local/bin/unitils
+```
 
 ## Usage
 
