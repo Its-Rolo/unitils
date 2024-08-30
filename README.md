@@ -15,7 +15,7 @@ Step 1, curl main.py & unitils.conf:
 sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main/main.py -o /usr/local/bin/unitils
 sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main/unitils.conf -o /usr/local/bin/unitils.conf
 ```
-Step 2:
+Step 2, edit/verify file read & write permissions:
 ```
 sudo chmod a+rx /usr/local/bin/unitils
 sudo chmod a+r /usr/local/bin/unitils.conf
