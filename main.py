@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import configparser
 from datetime import datetime, time
 import argparse
