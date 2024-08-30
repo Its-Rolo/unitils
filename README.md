@@ -19,6 +19,8 @@ Step 2:
 sudo chmod a+rx /usr/local/bin/unitils
 ```
 
+Otherwise you can clone the repo and run main.py like any other python script
+
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
