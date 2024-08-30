@@ -19,7 +19,7 @@ def parse_time(time_str):
 
 def load_config():
     config = configparser.ConfigParser()
-    config.read('unitils.conf')
+    config.read('./unitils.conf')
     for section in config.sections():
         class_name = config[section]['name']
         classes.append(class_name)
