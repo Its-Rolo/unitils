@@ -12,7 +12,7 @@ Linux users can install unitils via curl:
 
 Step 1:
 ```
-sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main.py -o /usr/local/bin/unitils
+sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main/main.py -o /usr/local/bin/unitils
 ```
 Step 2:
 ```
