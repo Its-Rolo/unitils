@@ -18,7 +18,7 @@ sudo curl -L https://raw.githubusercontent.com/Its-Rolo/unitils/main/unitils.con
 Step 2, edit/verify file read & write permissions:
 ```
 sudo chmod a+rx /usr/local/bin/unitils
-sudo chmod a+r /usr/local/bin/unitils.conf
+sudo chmod a+rw /usr/local/bin/unitils.conf
 ```
 
 ## Uninstallation
