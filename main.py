@@ -12,6 +12,8 @@ times = {
     "wednesday": [],
     "thursday": [],
     "friday": [],
+    "saturday": [],
+    "sunday": []
 }
 
 def parse_time(time_str):
