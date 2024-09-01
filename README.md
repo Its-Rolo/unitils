@@ -43,13 +43,22 @@ sudo rm unitils.conf
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+unitils can be run directly in the terminal via the command:  
+```
+unitils
+```
+Using this command without any arguments will display the entire week schedule.  
+unitils also has multiple arguments that you can use to refine what it displays, listed below:  
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The --nextclass argument will display when the next upcoming class is that day.  
+```
+unitils --nextclass
+```
+The day arguments will display the schedule only for the specified day. For example:  
+```
+unitils --monday
+```
+Arguments cannot be combined.
 
 ## License
 
