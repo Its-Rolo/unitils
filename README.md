@@ -4,7 +4,7 @@
 
 unitils is a simple/minimal program that allows you as a student to easily view your class schedule.  
 It is designed to run solely in the terminal and utilizes arguments to refine what you want it to display.  
-Setup for unitils should be completed via the config.conf file, as well as any other customizations you may want.  
+Setup for unitils should be completed via the unitils.conf file, as well as any other customizations you may want.  
 
 ## Installation
 
