@@ -52,10 +52,13 @@ def display_all_classes():
     for day, classes in times.items():
         print(f"{day.capitalize()}:")
         sorted_classes = sorted(classes, key=lambda cls: cls[1])
+        i = 0
         for cls in sorted_classes:
             start_time_str = cls[1].strftime("%-I:%M %p")
             end_time_str = cls[2].strftime("%-I:%M %p")
             print(f"  {cls[0]}: {start_time_str} - {end_time_str}")
+            print(class_rooms[i])
+            i += 1
         print()
 
 def main():
