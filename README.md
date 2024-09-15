@@ -26,8 +26,8 @@ cd /usr/local/bin
 vim unitils.conf
 ```
 
-If you are not using Linux, you will have to modify main.py to correct the file path for unitils.conf  
-After that, you can run it normally with python main.py
+If you are not using Linux, you can clone the github repo. You must also edit main.py as the file path structure is designed for linux.  
+After completing those two steps, you can run the script as normal with 'python main.py'
 
 ## Uninstallation
 
